@@ -6,8 +6,8 @@ const Counter = (props) => {
         <div style={{backgroundColor:props.backgroundColor}}>
             Hello Counter {props.initialValue}
             <br/>
-            <Button title={"increment"}/>
-            <Button title={"decrement"}/>
+            <Button title={"increment"} size="small" onClick={()=>{alert("increment")}}/>
+            <Button title={"decrement"} size="large" onClick={()=>{alert("decrement")}}/>
         
         </div>
     )

@@ -26,3 +26,10 @@ export function LargeButton() {
     )
     
 }
+
+export function ButtonWithEvent() {
+    return(
+        <Button title="Hello" size="large" onClick={()=>{alert("increment")}}/>
+    )
+    
+}

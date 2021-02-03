@@ -7,7 +7,7 @@ const Button = (props) => {
         <button 
             className={["buttonDefuclt",size].join(" ")}
             onClick={()=>{
-                alert("Hello")
+                props.onClick()
             }}>
             {props.title}
         </button>
