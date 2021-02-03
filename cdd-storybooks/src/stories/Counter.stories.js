@@ -1,8 +1,10 @@
 import Counter from "../components/Counter";
+import { withKnobs, number } from '@storybook/addon-knobs';
 
 let counterStories = {
     title : "Counter",
-    component : Counter
+    component : Counter,
+    decorators: [withKnobs]
 }
 
 export default counterStories;
@@ -15,7 +17,7 @@ export function CounterDefault(){
 
 export function CounterValue(){
     return(
-        <Counter initialValue={34}/>
+        <Counter initialValue={number('initialValue',35)}/>
     )
 }
 
