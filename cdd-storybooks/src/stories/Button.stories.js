@@ -12,3 +12,17 @@ export function DefaultButton() {
     )
     
 }
+
+export function SmallButton() {
+    return(
+        <Button title="Hello" size="small"/>
+    )
+    
+}
+
+export function LargeButton() {
+    return(
+        <Button title="Hello" size="large"/>
+    )
+    
+}

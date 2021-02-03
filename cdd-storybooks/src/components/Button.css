@@ -2,10 +2,10 @@
     border-radius: 20px;
 }
 
-.smallButton{
-    font-size: 16px;
+.small{
+    font-size: 8px;
 }
 
-.largeButton{
+.large{
     font-size: 40px;
 }
