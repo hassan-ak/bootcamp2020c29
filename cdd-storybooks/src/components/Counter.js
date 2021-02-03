@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Counter = () => {
+const Counter = (props) => {
     return (
-        <div>
-            Hello Counter
+        <div style={{backgroundColor:props.backgroundColor}}>
+            Hello Counter {props.initialValue}
         </div>
     )
 }
