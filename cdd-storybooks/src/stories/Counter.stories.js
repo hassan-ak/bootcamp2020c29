@@ -1,9 +1,11 @@
 import Counter from "../components/Counter";
 
-export default {
+let counterStories = {
     title : "Counter",
     component : Counter
 }
+
+export default counterStories;
 
 export function CounterDefault(){
     return(

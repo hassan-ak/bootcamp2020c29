@@ -1,0 +1,11 @@
+.buttonDefuclt{
+    border-radius: 20px;
+}
+
+.smallButton{
+    font-size: 16px;
+}
+
+.largeButton{
+    font-size: 40px;
+}
